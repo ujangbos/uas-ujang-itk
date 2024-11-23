@@ -1,0 +1,108 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #13122b;
+    padding-top: 20px;
+    color: white;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 50px;
+}
+
+.main-content h2 {
+    font-weight: 600;
+}
+
+.main-content a {
+    text-decoration: none;
+}
+
+.cta {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.cta a {
+    cursor: pointer;
+}
+
+.add-data {
+    background-color: #1b76fd;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.add-data:hover {
+    background-color: #004ac9;
+}
+
+.del-data {
+    background-color: #fd1b1b;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.del-data:hover {
+    background-color: #b31c1c;
+}
+
+.cancel-del {
+    background-color: #03ac03;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.cancel-del:hover {
+    background-color: #1b6e2d;
+}
+
+table tr:nth-child(even) {
+    background-color: #dcdcdc;
+}
+
+table th {
+    background-color: #ffae00;
+    color: white;
+    text-align: start;
+}
+
+table td {
+    padding: 10px;
+}
+
